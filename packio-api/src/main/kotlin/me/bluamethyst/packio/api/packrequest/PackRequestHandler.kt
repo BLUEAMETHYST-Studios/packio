@@ -12,9 +12,7 @@ class PackRequestHandler(database: PIODatabase) {
     fun requestTexturePack(texturePackRequest: TexturePackRequest) {
         collection.insertOne(texturePackRequest)
 
-        val event = TexturePackRequestEvent(texturePackRequest)
-
-        EventManager.callEvent(event)
+        EventManager.callEvent(TexturePackRequestEvent(texturePackRequest))
     }
 
     fun getRequests(): List<TexturePackRequest> {
