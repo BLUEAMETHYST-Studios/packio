@@ -13,10 +13,11 @@ dependencies {
     implementation(project(":packio-database"))
     implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.6.4")
     implementation(kotlin("stdlib"))
-
     implementation("org.jetbrains.kotlinx", "kotlinx-serialization-json", "1.5.0")
 
     implementation("org.litote.kmongo:kmongo-serialization:4.8.0")
+
+    implementation("me.obsilabor:alert:1.0.6")
 }
 
 tasks {

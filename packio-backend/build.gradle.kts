@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":packio-api"))
+
     implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.6.4")
 
     implementation("org.slf4j", "slf4j-api", "2.0.5")
