@@ -26,7 +26,6 @@ object Config {
     private val file = File("config.json")
 
     init {
-        if (!file.parentFile.exists()) file.mkdirs()
         if (!file.exists()) {
             file.createNewFile()
             file.writeText(json.encodeToString(ConfigData("token", MongoConfig("127.0.0.1", 27017, "lobbysystem", "", ""))))
