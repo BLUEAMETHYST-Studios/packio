@@ -28,7 +28,7 @@ object Config {
     init {
         if (!file.exists()) {
             file.createNewFile()
-            file.writeText(json.encodeToString(ConfigData("token", MongoConfig("127.0.0.1", 27017, "lobbysystem", "", ""))))
+            file.writeText(json.encodeToString(ConfigData("token", MongoConfig("127.0.0.1", 27017, "packio", "", ""))))
         }
 
         config = json.decodeFromString(file.readText())
