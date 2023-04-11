@@ -1,5 +1,6 @@
 
 rootProject.name = "packio"
 include("packio-backend")
-include("packio-api")
+include("packio-common")
 include("packio-database")
+include("packio-discord-bot")
