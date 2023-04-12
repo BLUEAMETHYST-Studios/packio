@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     implementation(project(":packio-common"))
+    implementation(project(":packio-database"))
 
     implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.6.4")
 

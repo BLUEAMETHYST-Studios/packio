@@ -38,5 +38,6 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# packio bot run
-config.json
+# project
+bot.json
+backend.json
