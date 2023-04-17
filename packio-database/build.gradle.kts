@@ -15,7 +15,7 @@ dependencies {
 
     implementation("org.jetbrains.kotlinx", "kotlinx-serialization-json", "1.5.0")
 
-    implementation("org.litote.kmongo:kmongo-serialization:4.8.0")
+    implementation("org.litote.kmongo:kmongo-serialization:4.9.0")
 }
 
 tasks {
