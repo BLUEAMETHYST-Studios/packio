@@ -1,4 +1,4 @@
-val kordVersion = "0.8.3"
+val kordVersion = "0.9.0"
 val kordexVersion = "1.5.7-SNAPSHOT"
 
 plugins {
