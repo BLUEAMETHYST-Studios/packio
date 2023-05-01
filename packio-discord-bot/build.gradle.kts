@@ -2,7 +2,7 @@ val kordVersion = "0.8.3"
 val kordexVersion = "1.5.7-SNAPSHOT"
 
 plugins {
-    kotlin("jvm") version "1.8.10"
+    kotlin("jvm") version "1.8.21"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     kotlin("plugin.serialization") version "1.8.10"
 }
