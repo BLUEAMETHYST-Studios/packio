@@ -20,7 +20,7 @@ dependencies {
     implementation("dev.kord:kord-core:$kordVersion")
 
     implementation("org.jetbrains.kotlinx", "kotlinx-serialization-json", "1.5.0")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0")
 
     implementation("org.slf4j", "slf4j-api", "2.0.5")
     implementation("org.slf4j", "slf4j-simple", "2.0.5")
